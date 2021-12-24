@@ -47,7 +47,7 @@ export default function App() {
 									setPayload(file);
 								}
 							} catch (error) {
-								alert(error);
+								alert(`There was an error! DEBUG: ${error}`);
 							}
 						}}
 					/>
